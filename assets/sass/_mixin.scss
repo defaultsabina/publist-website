@@ -1,0 +1,23 @@
+@import "./_variables.scss";
+@mixin flex($direction:row, $justify: null, $align: null, $wrap: null){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+};
+@mixin sm(){
+    @media screen and (min-width: map-get($mobile-screens , 'sm')) {
+        @content
+    }
+};
+@mixin md(){
+    @media screen and (min-width: map-get($mobile-screens, 'md')) {
+        @content
+    }
+};
+@mixin lg(){
+    @media screen and (min-width: map-get($mobile-screens, 'lg')) {
+        @content
+    }
+};

@@ -1,0 +1,23 @@
+// Colors
+$colors:(
+'text-color': #252B42,
+'second-text-color': #737373,
+'primary-color': #FF7B47,
+'secondary-color-1': #0D5C63,
+'secondary-color-2': #17213C,
+'muted-color': #BDBDBD,
+'light-text-color':#ffffff,
+'background-white': #FAFAFA,
+'background-black': rgba(0, 0, 0, 0.5),
+'background-blue': #D9EDFF,
+'background-nav':#F7F7F7,
+'background-who-we-are': #F3F3F3,
+);
+//screens
+$mobile-screens: (
+  'sm': 540px,
+  'md': 720px,
+  'lg': 960px,
+  'xl': 1140px,
+  'xxl': 1320px
+);
